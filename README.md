@@ -1,54 +1,98 @@
-<header>
+# Guia de Certificação SnowPro Core - Snowflake
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+## 🚀 Bem-vindo ao Guia de Certificação SnowPro Core!
 
-# GitHub Pages
+Este repositório tem como objetivo fornecer um guia completo para ajudar você a se preparar e ser aprovado na certificação SnowPro Core da Snowflake. Aqui você encontrará recursos, dicas de estudo, exemplos práticos e outros materiais que facilitarão sua jornada de aprendizado.
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+## 📋 Sobre a Certificação SnowPro Core
 
-</header>
+A certificação SnowPro Core valida seus conhecimentos e habilidades fundamentais na plataforma Snowflake. Ela é o ponto de entrada para todas as outras certificações da Snowflake e demonstra que você possui um entendimento sólido das funcionalidades principais do Snowflake.
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+## 🎯 O que você aprenderá
 
-## Step 1: Enable GitHub Pages
+- Arquitetura do Snowflake
+- Administração de contas e segurança
+- Armazenamento e processamento de dados
+- Performance e otimização
+- Integração de dados e compartilhamento
+- Computação e execução de consultas
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+## 📚 Estrutura do Repositório
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+```
+/
+├── 01-introducao/
+├── 02-arquitetura/
+├── 03-seguranca/
+├── 04-armazenamento/
+├── 05-computacao/
+├── 06-compartilhamento/
+├── 07-integracao/
+├── 08-performance/
+├── 09-simulados/
+├── recursos/
+└── exemplos-codigo/
+```
 
-### :keyboard: Activity: Enable GitHub Pages
+## 🛠️ Pré-requisitos
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+- Conhecimento básico de SQL
+- Entendimento de conceitos de banco de dados e data warehousing
+- Conta gratuita do Snowflake (para praticar)
+- Interesse em aprender cloud data platforms
 
-<footer>
+## 📝 Visão Geral do Exame
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+- **Formato**: 100 questões de múltipla escolha
+- **Duração**: 115 minutos
+- **Nota de aprovação**: 750 (em uma escala de 0-1000)
+- **Idiomas disponíveis**: Inglês, Japonês
+- **Preço**: $175 USD
+- **Validade**: 2 anos
+
+## 🗺️ Roteiro de Estudos Recomendado
+
+1. **Fase 1: Fundamentos** - Arquitetura Snowflake e conceitos básicos
+2. **Fase 2: Administração** - Segurança e gerenciamento de usuários
+3. **Fase 3: Dados** - Carregamento, armazenamento e compartilhamento
+4. **Fase 4: Performance** - Otimização e melhores práticas
+5. **Fase 5: Revisão** - Simulados e revisão de conceitos-chave
+
+## 📖 Recursos Incluídos
+
+- Resumos teóricos de cada tópico
+- Exercícios práticos com SQL
+- Dicas para o exame
+- Flashcards para revisão
+- Links para documentação oficial e recursos complementares
+- Simulados completos
+
+## 💡 Dicas para o Exame
+
+- Faça uso do período de teste gratuito do Snowflake para prática
+- Estude a documentação oficial do Snowflake
+- Não negligencie tópicos como segurança e compartilhamento de dados
+- Pratique consultas SQL regularmente
+- Faça simulados para se familiarizar com o formato das questões
+
+## 🤝 Como Contribuir
+
+Contribuições são sempre bem-vindas! Se você deseja contribuir, siga estes passos:
+
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-dica`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova dica para otimização'`)
+4. Envie para a branch (`git push origin feature/nova-dica`)
+5. Abra um Pull Request
+
+## ⚠️ Aviso Legal
+
+Este repositório não é afiliado oficialmente à Snowflake, Inc. Todo o conteúdo foi criado apenas para fins educacionais. A certificação SnowPro Core é propriedade da Snowflake, Inc.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+Boa sorte em sua jornada para se tornar certificado SnowPro Core! ❄️
